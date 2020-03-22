@@ -1,0 +1,124 @@
+BODY{
+    background-image: url(../img/edited.jpg);
+    padding: 10px;
+}
+@font-face{
+    src: url(../fonts/Shelldon.ttf);
+    font-family: "Shelldon";
+}
+@font-face{
+    src: url(../fonts/AdreenaScript-Demo.ttf);
+    font-family: "Adreena";
+}
+.DYO{
+    color: palegreen;
+    font-family: Shelldon;
+    font-size: 60px;
+    margin-left: 180px;
+    margin-top: 60px;
+    letter-spacing: 5px; 
+}
+.ninja{
+    height: 300px;
+    width: 650px;
+    margin-bottom: 50px;
+}
+.Enter{
+    border-radius: 20px;
+    height:60px;
+    width: 100px;
+    background-color: lawngreen;
+    border-color: deeppink;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 250px;
+    margin-top: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.Enter :hover{
+    color: blue;
+    background-color: cornflowerblue;
+}
+.one-container{
+    background-image:repeating-linear-gradient(90deg, rgb(45, 119, 16), rgb(182, 185, 8), rgb(49, 3, 21));
+    height: 580px;
+    width: 610px;
+    border-radius: 20px;
+    margin: 20px;
+    padding:5px;
+    text-align: center;
+}
+.color-changer{
+    font-family: Adreena;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 15px;
+    color:black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.motor-motor{
+    background-color: cornflowerblue;
+    margin: 25px;
+    height: 250px;
+    width:550px;
+    border-radius: 20px;
+    text-align: center;
+}
+.image{
+    height: 220px;
+    width:500px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.generate{
+    font-size:15px;
+    font-family:georgia;
+}
+.Generate-Button{
+    background-color: peachpuff;
+    border-color: darkorange;
+    height:30px;
+    width: 90px;
+    box-shadow: saddlebrown;
+    font-weight: bolder;
+    font-size:15px;
+}
+.specific{
+    font-size:15px;
+    font-family:georgia;
+}
+#select-colors{
+    font-size: 15px;
+    font-weight: bolder;
+    border: rgb(168, 144, 5);
+    height: 30px;
+    width: 100px;
+    border: 3px solid green;
+}
+.Show-Button{
+    background-color: rgb(245, 154, 75);
+    height:30px;
+    width: 80px;
+    font-weight: bolder;
+    font-size:15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border-color: cyan;
+}
+.Reset-Button{
+    background-color: peachpuff;
+    border-color: blue;
+    height:30px;
+    width: 80px;
+    box-shadow: saddlebrown;
+    font-weight: bolder;
+    font-size:15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: relative;
+}

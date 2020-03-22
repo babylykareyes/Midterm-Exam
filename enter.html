@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class = "one-container">
+        <div class = "motor-container">
+        <h1 class = "color-changer">Motorbike Color Changer</h1>
+        <div class = "motor-motor">
+            <img src="img/80478996_582057809212160_3202390404024500224_n.png" class="image">
+        </div>
+        <h2 class = "generate">Generate Random Colors</h2>
+        <div>
+            <button onclick = "Generate()" class = "Generate-Button">Generate</button>
+        </div>
+        <h3 class = "specific"> Generate Specific Colors</h3>
+        <label for="colors"></label>
+        <select name="" id="select-colors">
+            <option value="Blue">Blue</option>
+            <option value="Grey">Grey</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="LightBlue">Light Blue</option>
+            <option value="Black">Black</option>   
+        </select>
+        <div>
+            <button onclick = "Show()" class = "Show-Button">Show</button>
+
+            <button onclick = "Reset()" class = "Reset-Button">Reset</button>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+<script class="Generate" src = "JS function.js"></script>
+<script class = "Show" src = "JS function.js"></script>
+<script class = "Reset" src = "JS function.js"></script>
+</html>
